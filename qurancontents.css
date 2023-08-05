@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+.qc {
+    background-color: #b8dad9;
+    visibility: visible;
+    display: block;
+    height: 13000vh;
+    position: relative;
+    top: -40vh;
+    overflow-x: hidden;
+    /* position:absolute; */
+}
+
+.qc .mainheading {
+    margin: 0px 15vw;
+    padding: 10vh 0vh;
+    font-size: 7vw;
+    text-align: center;
+    font-weight: -1px;
+    font-family: 'Borel', cursive;
+}
+
+.qc .chapternum {
+	margin: 0 7vw 7vh;
+	font-size: 3vw;
+	font-family: 'Borel', cursive;
+}
+
+.qc .chapternum p {
+    display: inline;
+    position: relative;
+    top: 2vh;
+    left: 45vw;
+}
+
+.qc .surah {
+    margin: 0 7vw;
+    font-size: 18px;
+    text-align: justify;
+    padding: 2vh 0 20vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#qurantop {
+    background-color: #ffd3d6;
+    width: 6.5vw;
+    height: 3vh;
+    text-align: center;
+    border: none;
+    padding: 1px 0;
+    font-size: 14px;
+    position: fixed ;
+    top: 30vh;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color: black;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+}
+
+#qurantop:hover {
+    box-shadow: 1vh 1vh 15px black;
+}
+
+#qurantop p {
+    position: relative;
+    top: 0.4vh;
+    font-family: 'Borel', cursive;
+}
+
+.qc .contents {
+    display: block;
+    background-color: #b8dad9;
+    padding: 1vw 7vw;
+    font-size: 2vw;
+    margin: 5vh 0;
+    font-family: 'Borel', cursive;
+}
+
+.qc .contents h2 {
+    display: inline;
+}
+
+.qc .contents span {
+    font-size: 2.8vw;
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+    cursor: pointer;
+    display: inline;
+}
+
+.qc .contents .list {
+    display: none;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #ffd3d6;
+    padding: 2vh 1vw;
+    border: 0px solid black;
+    box-shadow: 1vw 1vw #ffd3d694;
+    border-radius: 12px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.qc .contents .list a {
+    font-size: 1vw;
+    border: 2px solid black;
+    padding: 0.5vh;
+    margin: 1vh 0;
+    border-radius: 9px;
+    text-decoration: none;
+    color: black;
+    background-color: #b8dad9;
+}
+
+.qc .contents .list a:hover {
+    color: black;
+    box-shadow: 0.3vw 0.3vw 15px black;
+}
